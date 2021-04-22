@@ -1,0 +1,17 @@
+{
+  "name": "milmove-browser-benchmarking",
+  "version": "1.0.0",
+  "description": "A browser based benchmarking tool for the mymove application leveraging puppeteer, chrome devtools, and lighthouse to gather performance data.",
+  "main": "benchmarking.js",
+  "repository": "https://github.com/transcom/milmove-browser-benchmarking",
+  "contributors": [{ "name": "Duncan Spencer", "email": "duncan@truss.works"}, { "name": "Donald Thai", "email": "donald@truss.works" }, { "name": "Jennifer Parsons", "email": "jp@truss.works"}],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "commander": "^7.2.0",
+    "conf": "^10.0.1",
+    "debug": "^4.3.1",
+    "lighthouse": "^7.3.0",
+    "puppeteer": "^9.0.0"
+  }
+}
